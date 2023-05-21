@@ -29,9 +29,9 @@
 #ifdef ALLOW_GRAPHICS
 
 #ifdef _WIN32
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 #else
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 #endif
 
 #include "proteins.h"

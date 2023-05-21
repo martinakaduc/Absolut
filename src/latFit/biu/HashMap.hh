@@ -3,10 +3,10 @@
 #define BIU_HASHMAP_HH_
 
 // is set to 1 if header <unordered_map> is available, 0 otherwise
-#define HAVE_UNORDERED_MAP 0
+#define HAVE_UNORDERED_MAP 1
 
 // is set to 1 if header <tr1/unordered_map> is available, 0 otherwise
-#define HAVE_TR1_UNORDERED_MAP 1
+#define HAVE_TR1_UNORDERED_MAP 0
 
 // is set to 1 if header <ext/hash_map> 
 // with "__gnu_cxx" namespace is available, 0 otherwise
